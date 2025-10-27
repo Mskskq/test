@@ -1,0 +1,541 @@
+* {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.Header {
+    display: flex;
+    padding-bottom: 1%;
+}
+
+
+.container {margin: auto;}
+
+.Text-header {
+    font-size: 15px;
+    color: #707070;
+    margin-right: 50%;
+    margin-top: 2%;
+    margin-left: 3%;
+
+}
+
+.Knopka-header {
+    background-color: #FFA019;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin-top: 1%;
+    border-radius: 10px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 10%;
+    text-align: center;
+    margin-left: 14%;
+    text-decoration: none;
+}
+
+.Logo {
+    margin-left: 3%;
+    size: 30px;
+    margin-top: 1%;
+    margin-bottom: 1%; 
+    font-size: 25px;  
+    font-weight: bold;
+}
+
+.Osobenost {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Osobenost-item {margin-right: 65px;}
+
+.Osobenost-link {
+    color: black;
+    text-decoration: none;
+}
+
+.Osobenost-link:hover {
+    color: black;
+    color: rgb(143, 134, 143);
+    text-decoration: none;
+}
+
+.Picture-text {
+    background: url('/image/scooter.jpg') no-repeat center top/cover;
+    position: relative;
+    min-height: 690px;
+}
+
+.Picture {
+    position: absolute;
+    background:rgb(0, 0, 0, 0.5);
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.Title-Info {
+    padding-top: 13%;
+    padding-bottom: 1%;
+    color: white;
+    text-align: center;
+    font-size: 56px
+}
+
+.Menu-Info {
+    color: white;
+    text-align: center;
+    font-size: 20px
+}
+
+.button-menu {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    width: 10%;
+    height: 1%;
+}
+
+.link-menu {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.Logo-Priemush {
+    font-size: 34px;
+    color: #707070;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+}
+
+.images-grid 
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+        
+.image-item 
+{
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+        
+.image-caption {
+    font-size: 20px;
+    color: #707070;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.Logo-O_Nas
+{
+    font-size: 34px;
+    color: #707070;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+}
+
+.about-text {
+    font-size: 20px;
+    color: #707070;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 80%;
+    text-align: justify;
+    margin-bottom: 5%;
+}
+           
+.block-section {
+    background-color: #FFA019;
+    padding: 1%;
+    margin-top: 2%;
+}
+        
+.block-container {
+    display: flex;
+    align-items: center;
+}
+        
+.block-text {
+    color: white;
+    font-size: 20px;
+    margin-left: 1%;
+    width: 20%;
+    padding-top: 1%;
+}
+        
+.block-form {
+    display: flex;
+    margin-left: 15%;
+    gap: 5%;
+    width: 60%;
+}
+        
+.form-group {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.form-group input {
+    padding: 5%;
+    width: 100%;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    font-size: 14px;
+}
+
+.form-podpisat {
+    background-color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    width: 237px;
+    height: 40px;
+    line-height: 45px;
+    text-decoration: none;
+    color:black;
+}
+
+.Logo-Osobenost_giroskut {
+    font-size: 34px;
+    color: #707070;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+
+.Vid-Osoben {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 4%;
+    gap: 15%;
+}
+
+.Minus,
+.Plus_1,
+.Plus_2 {
+    font-size: 20px;
+    color: #707070;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.Logo_Konsultant {
+    font-size: 34px;
+    color: #707070;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+
+.Kons-images-grid {
+    border-radius: 12px;
+    display: flex;
+}
+
+.Kons-image-item {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 5%;
+}
+
+.Kons-image-Name {
+    font-size: 20px;
+    color: black;
+    margin-left: 5%;
+}
+
+.Kons-Opisanie {
+    font-size: 15px;
+    color: black;
+    font-style: italic;
+}
+
+.Konst-text {
+    font-size: 15px;
+    background-color: #FFA019;
+    width: 50%;
+    text-align: center;
+    color: white;
+    margin-left: 20%;
+    margin-top: 15%;
+    border-radius: 10px;
+}
+
+.Picture_1,
+.Picture_2,
+.Picture_3 {
+    width: 196px;
+    height: 248px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70%;
+}
+
+.Catalog {
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    margin-bottom: 10%;
+}
+        
+.catalog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #eee;
+}
+        
+.catalog-title {
+    margin-left: 1%;
+    font-size: 34px;
+    color: #707070;
+    font-weight: 700;
+}
+        
+.filter-list {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+        
+.filter-item {
+    font-size: 20px;
+    color: #555;
+    cursor: pointer;
+    padding: 8px 15px;
+    border-radius: 4px;
+}
+        
+.filter-item:hover, .filter-item.active {
+    background-color: #FFA019;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 16px;
+}
+        
+ .products-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+        
+.product-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #7271713a;
+}
+              
+.product-image {
+    width: 100%;
+    height: 500px;
+}
+
+.product-text-image {
+    background-color:#FFA019;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    width: 28%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.product-info {padding: 20px;}
+        
+.product-name {
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+        
+.product-description {
+    color: #707070;
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+    height: 60px;
+    overflow: hidden;
+}
+        
+.product-price {
+    font-size: 25px;
+    color: black;
+    font-weight: 700;
+    box-shadow: 0 4px 6px rgba(19, 18, 18, 0.137);
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.Brend-Logo {
+    font-size: 28px;
+    color: #707070;
+    margin-left: 2%;
+    margin-top: 4%;
+}
+
+.Brend {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.Brend-item {
+    margin-right: 27px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 6%;
+    margin-top: 2%;
+}
+
+.Brend-link {
+    text-decoration: none;
+    color: #707070;
+}
+
+.Polezn-Zagolov {
+    font-size: 34px;
+    color: #707070;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.Polezn-images-grid 
+{
+   margin-bottom: 8%; 
+   margin-top: 2%;
+}
+        
+.Polezn-image-item 
+{
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+        
+.Polezn-image-text {
+    font-size: 18px;
+    color: #707070;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.Polezn-text-picture1,
+.Polezn-text-picture2,
+.Polezn-text-picture4 {
+    text-align: center;
+    margin-right: 65%;
+    font-size: 27px;
+}
+
+.Polezn-text-picture3 {
+    text-align: center;
+    margin-right: 100%;
+    font-size: 27px;
+}
+
+.Polezn-images-grid {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    gap: 40px;
+}
+
+.image-container {position: relative;}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    
+}
+
+.image-text_2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.327);
+    color: white;
+    padding: 35%; 
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    
+}
+
+.Footer {
+    display: flex;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    background-color:rgba(0, 0, 0, 0.171);
+}
+
+.footer-My-Giro {
+    margin-left: 0;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: #707070;
+}
+
+.Title-Text {
+    margin-top: 1%;
+    color: rgba(0, 0, 0, 0.795);
+    margin-top: 10%;
+}
+
+.Company-My-Giro, 
+.Pokuptel-My-Giro,
+.Support-My-Giro {
+    position: relative;
+    justify-content: right;
+    color: #707070;
+    margin-right: 50px;
+    margin-left: 125px;
+}
+
+.Line-footer {
+    background-color: black;
+    width: 100%;
+    height: 28px;
+}
